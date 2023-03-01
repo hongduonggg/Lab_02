@@ -10,7 +10,7 @@ public class Lab0201 {
         float W = weight.nextFloat();
         Float  BMI= W / (2*H);
         if (BMI<= 18.5){
-            System.out.println("Underweight---");
+            System.out.println("Underweight---  ");
         } else if (18.5 < BMI && BMI<= 24.9){
             System.out.println("Normal weight");
         } else if (BMI>25 && BMI<=29.9) {
